@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { RandomKindnessComponent } from './random-kindness/random-kindness.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RandomKindnessComponent
+    RandomKindnessComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
